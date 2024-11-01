@@ -1,0 +1,181 @@
+.Highlighted a{
+    background-color : Green !important;
+    background-image :none !important;
+    color: White !important;
+    font-weight:bold !important;
+    font-size: 12pt;
+}
+
+#contentTimeDate
+{
+    max-width: 480px;
+    margin: initial;
+    padding: 20px;
+
+    border: 1px solid #a5a5a5;
+}
+
+#contentTimeDate h4,
+#contentTimeDate h5,
+#contentTimeDate h6
+{
+    margin: 0 0 20px !important;
+}
+
+#contentTimeDate h5
+{
+    font-weight: 400;
+
+    text-transform: initial;
+}
+
+#contentTimeDate h5,
+#contentTimeDate h6
+{
+    text-align: center;
+}
+
+#contentTimeDate h6
+{
+    font-weight: 400;
+
+    letter-spacing: .063em;
+
+    color: #000000;
+}
+
+#contentTimeDate fieldset
+{
+    /*display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;*/
+    margin: 0 0 20px;
+}
+
+#contentTimeDate fieldset p
+{
+    float: left;
+
+    width: 105px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+#contentTimeDate fieldset p label
+{
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+#contentTimeDate fieldset input,
+#contentTimeDate fieldset select
+{
+    float: left;
+
+    width: 235px;
+    padding: 7px 10px;
+
+    border: 1px solid #a5a5a5;
+}
+
+#contentTimeDate fieldset input::-moz-placeholder,
+#contentTimeDate fieldset select::-moz-placeholder
+{
+    font-weight: 300 !important;
+
+    opacity: 1;
+}
+
+#contentTimeDate fieldset input:-moz-placeholder,
+#contentTimeDate fieldset select:-moz-placeholder
+{
+    font-weight: 300 !important;
+
+    opacity: 1;
+}
+
+#contentTimeDate fieldset input::-webkit-input-placeholder,
+#contentTimeDate fieldset select::-webkit-input-placeholder
+{
+    font-weight: 300 !important;
+
+    opacity: 1;
+}
+
+#contentTimeDate fieldset input:-ms-input-placeholder,
+#contentTimeDate fieldset select:-ms-input-placeholder
+{
+    font-weight: 300 !important;
+
+    opacity: 1;
+}
+
+#contentTimeDate fieldset:after
+{
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+#contentTimeDate .requestBtn
+{
+    text-align: center;
+}
+
+#contentTimeDate .requestBtn a
+{
+    font-weight: 300;
+
+    display: inline-block;
+
+    padding: 7px 15px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border-radius: 5px;
+    background-color: #ff9a00;
+}
+
+#contentTimeDate .requestBtn a:hover
+{
+    background-color: #cc7b00;
+}
+
+@media screen and (max-width: 768px)
+{
+    #contentTimeDate
+    {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    #contentTimeDate
+    {
+        padding: 20px 18px;
+    }
+    #contentTimeDate h4
+    {
+        text-align: center;
+    }
+    #contentTimeDate fieldset p
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #contentTimeDate fieldset p label
+    {
+        padding-top: 0;
+    }
+    #contentTimeDate fieldset input,
+    #contentTimeDate fieldset select
+    {
+        width: 100%;
+    }
+    #contentTimeDate .requestBtn a
+    {
+        padding: 7px 11px;
+    }
+}
